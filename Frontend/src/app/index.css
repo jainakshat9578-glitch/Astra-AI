@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+ .sidebar::-webkit-scrollbar,
+ .messages::-webkit-scrollbar{
+    width: 8px;
+ }
+.sidebar::-webkit-scrollbar-track,
+ .messages::-webkit-scrollbar-track{
+    background: transparent;
+ }
+.sidebar::-webkit-scrollbar-thumb,
+.messages::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+.sidebar::-webkit-scrollbar-thumb:hover,
+.messages::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
